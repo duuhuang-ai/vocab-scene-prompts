@@ -1,0 +1,569 @@
+{
+  "schema_version": "1.1.0",
+  "project": {
+    "id": "cet4-restaurant-sample",
+    "title": "四级餐厅场景单页示例",
+    "scope": "sample",
+    "source_name": "餐厅12词示例",
+    "audience": "四级英语成人学习者",
+    "locale": "zh-CN",
+    "defaults": {
+      "aspect_ratio": "3:4",
+      "width": 1536,
+      "height": 2048,
+      "target_min_words": 8,
+      "target_max_words": 12
+    }
+  },
+  "style_profile": {
+    "id": "pencil-adult-v1",
+    "positive_prompt": "【整体画风】3:4竖版，建议1536×2048像素。细腻彩色铅笔手绘，融合半写实日系生活漫画与复古绘本插画。保留彩铅排线、细小颗粒、米白纸张纹理，局部叠加轻薄水彩晕染。画面精致、温暖，面向成人英语学习者。\n\n【人物表现】年轻成年人，接近真实人体比例，五官带日系漫画的柔化处理，眼睛大小适中，笑容和动作自然。头发有细密深棕色笔触；衣服有织物纹理、褶皱和柔和阴影。轮廓为细棕灰线条。同一人物在不同画面中的发型、服装和面部特征一致。\n\n【配色与光线】暖米白和奶油色为底，搭配蜂蜜金、浅赭、木棕、鼠尾草绿及少量藏蓝。低饱和暖色，保留适度明暗对比；自然日光与室内暖黄灯光交融。木材、布料、植物和食物有细致手绘质感。\n\n【场景构图】按本页故事安排一个主场景或多个连续画面，视觉主体明确。多个画面以米白留白、渐淡彩铅笔触和不规则边缘自然衔接，不画粗黑分格框。背景靠近主体时较清晰，边缘逐渐淡入纸张。环境细节贴合主题，为词条留出空白。\n\n【标题设计】顶部大号深棕色中文毛笔手写标题，笔画厚实、书写感自然。两侧少量手绘绿叶，下方细长绿色铅笔线。副标题置于浅赭黄色横向彩铅涂抹底纹上，中英文居中，字迹清楚。\n\n【词汇标签】英文用深藏蓝粗体衬线字体，背后为浅绿、浅蓝、淡粉、浅紫或奶油黄的不规则圆角手绘底纹，仅衬英文。下方依次为黑色音标、词性与中文；音标为清晰衬线字体，中文近似宋体。英文最大，三行层级稳定，手机查看仍可辨认。\n\n【箭头与排版】标签靠近目标，使用短而柔和的灰蓝曲线箭头，带细白描边，落点明确，不穿文字、脸部或其他标签。评价、动作或抽象词按页面说明使用情境表达，不强行指向单个物体。词条只出现一次，四周留安全边距。\n\n【完成观感】整页像精心绘制的纸质英语学习插画，人物、环境与教学标注融为一体。文字严格采用本页清单，不自行补充释义。",
+    "negative_prompt": "Q版人物，儿童简笔画，夸张大头大眼，扁平矢量插画，3D渲染，摄影写实，塑料质感，光滑数码厚涂，粗黑描边，高饱和荧光色，强烈光效，硬边漫画分格，整齐卡片网格，过多贴纸装饰，文字遮挡主体，箭头交叉，乱码，水印，品牌标志，社交平台界面。",
+    "reference_note": "用户提供的餐厅词汇漫画参考图；统一彩铅、半写实成人漫画、暖米白纸张与词条标注。"
+  },
+  "source_entries": [
+    {
+      "id": "cet4-2000",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 2001
+      },
+      "original": {
+        "serial": 2000,
+        "word": "restaurant",
+        "phonetic": "/ˈrestrɑːnt,ˈrestərɑːnt/",
+        "meaning": "n. 餐馆；[经] 饭店"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-1670",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 1671
+      },
+      "original": {
+        "serial": 1670,
+        "word": "waiter",
+        "phonetic": "/ˈweɪtər/",
+        "meaning": "n. 服务员，侍者"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-3612",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 3613
+      },
+      "original": {
+        "serial": 3612,
+        "word": "customer",
+        "phonetic": "/ˈkʌstəmər/",
+        "meaning": "n. 顾客；家伙"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-3953",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 3954
+      },
+      "original": {
+        "serial": 3953,
+        "word": "menu",
+        "phonetic": "/ˈmenjuː/",
+        "meaning": "n. 菜单饭菜"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-0766",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 767
+      },
+      "original": {
+        "serial": 766,
+        "word": "table",
+        "phonetic": "/ˈteɪbl/",
+        "meaning": "n. 桌子；表格；平地层vt. 制表；搁置；嵌合adj. 桌子的n. (Table)人名；(罗)塔布莱"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-1363",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 1364
+      },
+      "original": {
+        "serial": 1363,
+        "word": "chair",
+        "phonetic": "/tʃer/",
+        "meaning": "n. 椅子；讲座；（会议的）主席位；大学教授的职位vt. 担任（会议的）主席；使…入座；使就任要职n. (Chair)人名；(法)谢尔"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-1185",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 1186
+      },
+      "original": {
+        "serial": 1185,
+        "word": "bread",
+        "phonetic": "/bred/",
+        "meaning": "n. 面包；生计vt. 在…上洒面包屑"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-3322",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 3323
+      },
+      "original": {
+        "serial": 3322,
+        "word": "soup",
+        "phonetic": "/suːp/",
+        "meaning": "n. 汤，羹；马力vt. 加速；增加马力"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-0618",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 619
+      },
+      "original": {
+        "serial": 618,
+        "word": "coffee",
+        "phonetic": "/ˈkɔːfi/",
+        "meaning": "n. 咖啡；咖啡豆；咖啡色n. (Coffee)人名；(英)科菲"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-0808",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 809
+      },
+      "original": {
+        "serial": 808,
+        "word": "delicious",
+        "phonetic": "/dɪˈlɪʃəs/",
+        "meaning": "adj. 美味的；可口的"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-1316",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 1317
+      },
+      "original": {
+        "serial": 1316,
+        "word": "bill",
+        "phonetic": "/bɪl/",
+        "meaning": "n. [法] 法案；广告；账单；[金融] 票据；钞票；清单vt. 宣布；开账单；用海报宣传"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    },
+    {
+      "id": "cet4-3025",
+      "source_locator": {
+        "file": "example-vocabulary.xlsx",
+        "sheet": "四级词表",
+        "row": 3026
+      },
+      "original": {
+        "serial": 3025,
+        "word": "receipt",
+        "phonetic": "/rɪˈsiːt/",
+        "meaning": "n. 收到；收据；收入vt. 收到"
+      },
+      "review_status": "ready",
+      "review_note": "音标沿用示例词表。"
+    }
+  ],
+  "themes": [
+    {
+      "id": "dining",
+      "name": "餐饮与用餐",
+      "description": "到店接待、点餐用餐与结账离店中的人物、物品和评价。",
+      "scene_directions": [
+        "到店接待",
+        "点餐用餐",
+        "结账离店"
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "entry_id": "cet4-2000",
+      "theme_id": "dining",
+      "selected_meaning": "餐馆",
+      "part_of_speech": "n.",
+      "reason": "以“餐馆”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-1670",
+      "theme_id": "dining",
+      "selected_meaning": "服务员",
+      "part_of_speech": "n.",
+      "reason": "以“服务员”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-3612",
+      "theme_id": "dining",
+      "selected_meaning": "顾客",
+      "part_of_speech": "n.",
+      "reason": "以“顾客”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-3953",
+      "theme_id": "dining",
+      "selected_meaning": "菜单",
+      "part_of_speech": "n.",
+      "reason": "以“菜单”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-0766",
+      "theme_id": "dining",
+      "selected_meaning": "桌子",
+      "part_of_speech": "n.",
+      "reason": "以“桌子”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-1363",
+      "theme_id": "dining",
+      "selected_meaning": "椅子",
+      "part_of_speech": "n.",
+      "reason": "以“椅子”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-1185",
+      "theme_id": "dining",
+      "selected_meaning": "面包",
+      "part_of_speech": "n.",
+      "reason": "以“面包”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-3322",
+      "theme_id": "dining",
+      "selected_meaning": "汤",
+      "part_of_speech": "n.",
+      "reason": "以“汤”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-0618",
+      "theme_id": "dining",
+      "selected_meaning": "咖啡",
+      "part_of_speech": "n.",
+      "reason": "以“咖啡”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-0808",
+      "theme_id": "dining",
+      "selected_meaning": "美味的",
+      "part_of_speech": "adj.",
+      "reason": "以“美味的”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-1316",
+      "theme_id": "dining",
+      "selected_meaning": "账单",
+      "part_of_speech": "n.",
+      "reason": "以“账单”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    },
+    {
+      "entry_id": "cet4-3025",
+      "theme_id": "dining",
+      "selected_meaning": "收据",
+      "part_of_speech": "n.",
+      "reason": "以“收据”义项用于餐厅用餐场景。",
+      "review_status": "ready"
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-001",
+      "page_number": 1,
+      "theme_id": "dining",
+      "title": "四级单词场景漫画",
+      "subtitle": "餐厅用餐 · At the Restaurant",
+      "story": "到店接待→看菜单与用餐→核对账单，付款后领取收据。付款动作可省略。",
+      "scene_setting": "温馨小餐馆，白天，木质家具、绿植、自然光与暖黄灯光。",
+      "characters": [
+        {
+          "id": "customer-a",
+          "description": "年轻成年女顾客，深色齐颈短发，浅鼠尾草绿针织上衣，米白帆布包，自然温柔。"
+        },
+        {
+          "id": "waiter-a",
+          "description": "年轻成年男服务员，深色短发，白衬衫、藏蓝围裙，笑容友善。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "entry_id": "cet4-2000",
+          "display_word": "restaurant",
+          "display_phonetic": "/ˈrestrɑːnt,ˈrestərɑːnt/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "餐馆",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "餐馆门面或入口",
+          "label_position": "左上",
+          "link_mode": "arrow"
+        },
+        {
+          "entry_id": "cet4-1670",
+          "display_word": "waiter",
+          "display_phonetic": "/ˈweɪtər/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "服务员",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "男服务员",
+          "label_position": "右上",
+          "link_mode": "arrow"
+        },
+        {
+          "entry_id": "cet4-3612",
+          "display_word": "customer",
+          "display_phonetic": "/ˈkʌstəmər/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "顾客",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "女顾客",
+          "label_position": "顾客右外侧",
+          "link_mode": "arrow"
+        },
+        {
+          "entry_id": "cet4-3953",
+          "display_word": "menu",
+          "display_phonetic": "/ˈmenjuː/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "菜单",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "展开的菜单本",
+          "label_position": "菜单上方留白",
+          "link_mode": "arrow"
+        },
+        {
+          "entry_id": "cet4-0766",
+          "display_word": "table",
+          "display_phonetic": "/ˈteɪbl/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "桌子",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "木桌桌面边缘",
+          "label_position": "中部左下",
+          "link_mode": "arrow"
+        },
+        {
+          "entry_id": "cet4-1363",
+          "display_word": "chair",
+          "display_phonetic": "/tʃer/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "椅子",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "木椅椅背或椅座",
+          "label_position": "中部左侧",
+          "link_mode": "arrow"
+        },
+        {
+          "entry_id": "cet4-1185",
+          "display_word": "bread",
+          "display_phonetic": "/bred/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "面包",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "篮内面包本身",
+          "label_position": "面包篮下方",
+          "link_mode": "arrow"
+        },
+        {
+          "entry_id": "cet4-3322",
+          "display_word": "soup",
+          "display_phonetic": "/suːp/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "汤",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "汤碗里的汤",
+          "label_position": "中部右侧",
+          "link_mode": "arrow"
+        },
+        {
+          "entry_id": "cet4-0618",
+          "display_word": "coffee",
+          "display_phonetic": "/ˈkɔːfi/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "咖啡",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "带把手的咖啡杯",
+          "label_position": "中部右下",
+          "link_mode": "arrow"
+        },
+        {
+          "entry_id": "cet4-0808",
+          "display_word": "delicious",
+          "display_phonetic": "/dɪˈlɪʃəs/",
+          "display_part_of_speech": "adj.",
+          "display_meaning": "美味的",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "美食与顾客满足的神情共同表达食物美味",
+          "label_position": "食物与顾客表情附近",
+          "link_mode": "context"
+        },
+        {
+          "entry_id": "cet4-1316",
+          "display_word": "bill",
+          "display_phonetic": "/bɪl/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "账单",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "打开的账单夹里较宽的账单纸",
+          "label_position": "下部左中",
+          "link_mode": "arrow"
+        },
+        {
+          "entry_id": "cet4-3025",
+          "display_word": "receipt",
+          "display_phonetic": "/rɪˈsiːt/",
+          "display_part_of_speech": "n.",
+          "display_meaning": "收据",
+          "teaching_role": "first",
+          "review_reason": "",
+          "visual_target": "服务员手中的狭长收据",
+          "label_position": "下部右侧",
+          "link_mode": "arrow"
+        }
+      ],
+      "layout": [
+        {
+          "id": "arrival",
+          "order": 1,
+          "relative_height": 0.27,
+          "scene_description": "进店与接待。左侧餐馆有墨绿色遮阳篷、绿植、小黑板及透出暖光的门窗。黑板只画食物图案，不添加可读文字。右侧男服务员伸手欢迎女顾客。",
+          "character_ids": [
+            "customer-a",
+            "waiter-a"
+          ],
+          "vocabulary_entry_ids": [
+            "cet4-2000",
+            "cet4-1670",
+            "cet4-3612"
+          ]
+        },
+        {
+          "id": "dining",
+          "order": 2,
+          "relative_height": 0.4,
+          "scene_description": "看菜单与用餐，为整页主体。女顾客坐在木椅上，面前是木桌，手中或手边有展开的菜单；服务员把热汤端到桌边。桌上分别摆面包篮、汤碗、带碟咖啡杯。女顾客露出期待或满足神情；动作自然，不同时做互相矛盾的事。椅背、桌边及各物品结构清楚。",
+          "character_ids": [
+            "customer-a",
+            "waiter-a"
+          ],
+          "vocabulary_entry_ids": [
+            "cet4-3953",
+            "cet4-0766",
+            "cet4-1363",
+            "cet4-1185",
+            "cet4-3322",
+            "cet4-0618",
+            "cet4-0808"
+          ]
+        },
+        {
+          "id": "checkout",
+          "order": 3,
+          "relative_height": 0.25,
+          "scene_description": "结账与领取收据。顾客在收银台左侧，服务员在右侧递出狭长热敏纸收据。柜台上打开深色账单夹，里面放一张较宽的账单纸。用较宽纸张与狭长纸条、柜台摆放与手持递交区分账单和收据。",
+          "character_ids": [
+            "customer-a",
+            "waiter-a"
+          ],
+          "vocabulary_entry_ids": [
+            "cet4-1316",
+            "cet4-3025"
+          ]
+        }
+      ],
+      "composition_notes": "顶部标题约8%，三个场景依次约27%、40%、25%；自然边缘衔接；安全边距与词条留白。",
+      "style_profile_id": "pencil-adult-v1",
+      "prompt": {
+        "ready_to_copy": "请生成一张3:4竖版英语场景词汇漫画，建议尺寸1536×2048像素。整张图是一页，三个画面是同页中的连续场景。\n\n【上画标题】\n四级单词场景漫画\n餐厅用餐 · At the Restaurant\n\n【准确教学文字】\n以下12个词条，每条固定三行，英文、音标、词性与中文必须逐字使用，不添加其他义项。\nrestaurant | /ˈrestrɑːnt,ˈrestərɑːnt/ | n. 餐馆\nwaiter | /ˈweɪtər/ | n. 服务员\ncustomer | /ˈkʌstəmər/ | n. 顾客\nmenu | /ˈmenjuː/ | n. 菜单\ntable | /ˈteɪbl/ | n. 桌子\nchair | /tʃer/ | n. 椅子\nbread | /bred/ | n. 面包\nsoup | /suːp/ | n. 汤\ncoffee | /ˈkɔːfi/ | n. 咖啡\ndelicious | /dɪˈlɪʃəs/ | adj. 美味的\nbill | /bɪl/ | n. 账单\nreceipt | /rɪˈsiːt/ | n. 收据\n\n【人物与场景】\n一家温馨小餐馆，白天自然光与室内暖光交融，木质家具、绿植与少量花卉。年轻成年女顾客，深色齐颈短发，浅鼠尾草绿针织上衣，米白帆布包，自然温柔。年轻成年男服务员，深色短发，白衬衫、藏蓝围裙，笑容友善。三个画面中人物保持一致。\n\n【页面布局】\n顶部约8%为标题区。\n1. 27%画面高度：进店与接待。左侧餐馆有墨绿色遮阳篷、绿植、小黑板及透出暖光的门窗。黑板只画食物图案，不添加可读文字。右侧男服务员伸手欢迎女顾客。\n2. 40%画面高度：看菜单与用餐，为整页主体。女顾客坐在木椅上，面前是木桌，手中或手边有展开的菜单；服务员把热汤端到桌边。桌上分别摆面包篮、汤碗、带碟咖啡杯。女顾客露出期待或满足神情；动作自然，不同时做互相矛盾的事。椅背、桌边及各物品结构清楚。\n3. 25%画面高度：结账与领取收据。顾客在收银台左侧，服务员在右侧递出狭长热敏纸收据。柜台上打开深色账单夹，里面放一张较宽的账单纸。用较宽纸张与狭长纸条、柜台摆放与手持递交区分账单和收据。\n\n【标签位置与指向】\nrestaurant：置于左上，箭头指向餐馆门面或入口。\nwaiter：置于右上，箭头指向男服务员。\ncustomer：置于顾客右外侧，箭头指向女顾客。\nmenu：置于菜单上方留白，箭头指向展开的菜单本。\ntable：置于中部左下，箭头指向木桌桌面边缘。\nchair：置于中部左侧，箭头指向木椅椅背或椅座。\nbread：置于面包篮下方，箭头指向篮内面包本身。\nsoup：置于中部右侧，箭头指向汤碗里的汤。\ncoffee：置于中部右下，箭头指向带把手的咖啡杯。\ndelicious：置于食物与顾客表情附近，由美食与顾客满足的神情共同表达食物美味，不画指向人物的命名箭头。\nbill：置于下部左中，箭头指向打开的账单夹里较宽的账单纸。\nreceipt：置于下部右侧，箭头指向服务员手中的狭长收据。\n\n【统一视觉风格】\n【整体画风】3:4竖版，建议1536×2048像素。细腻彩色铅笔手绘，融合半写实日系生活漫画与复古绘本插画。保留彩铅排线、细小颗粒、米白纸张纹理，局部叠加轻薄水彩晕染。画面精致、温暖，面向成人英语学习者。\n\n【人物表现】年轻成年人，接近真实人体比例，五官带日系漫画的柔化处理，眼睛大小适中，笑容和动作自然。头发有细密深棕色笔触；衣服有织物纹理、褶皱和柔和阴影。轮廓为细棕灰线条。同一人物在不同画面中的发型、服装和面部特征一致。\n\n【配色与光线】暖米白和奶油色为底，搭配蜂蜜金、浅赭、木棕、鼠尾草绿及少量藏蓝。低饱和暖色，保留适度明暗对比；自然日光与室内暖黄灯光交融。木材、布料、植物和食物有细致手绘质感。\n\n【场景构图】按本页故事安排一个主场景或多个连续画面，视觉主体明确。多个画面以米白留白、渐淡彩铅笔触和不规则边缘自然衔接，不画粗黑分格框。背景靠近主体时较清晰，边缘逐渐淡入纸张。环境细节贴合主题，为词条留出空白。\n\n【标题设计】顶部大号深棕色中文毛笔手写标题，笔画厚实、书写感自然。两侧少量手绘绿叶，下方细长绿色铅笔线。副标题置于浅赭黄色横向彩铅涂抹底纹上，中英文居中，字迹清楚。\n\n【词汇标签】英文用深藏蓝粗体衬线字体，背后为浅绿、浅蓝、淡粉、浅紫或奶油黄的不规则圆角手绘底纹，仅衬英文。下方依次为黑色音标、词性与中文；音标为清晰衬线字体，中文近似宋体。英文最大，三行层级稳定，手机查看仍可辨认。\n\n【箭头与排版】标签靠近目标，使用短而柔和的灰蓝曲线箭头，带细白描边，落点明确，不穿文字、脸部或其他标签。评价、动作或抽象词按页面说明使用情境表达，不强行指向单个物体。词条只出现一次，四周留安全边距。\n\n【完成观感】整页像精心绘制的纸质英语学习插画，人物、环境与教学标注融为一体。文字严格采用本页清单，不自行补充释义。\n\n【负面提示词】\nQ版人物，儿童简笔画，夸张大头大眼，扁平矢量插画，3D渲染，摄影写实，塑料质感，光滑数码厚涂，粗黑描边，高饱和荧光色，强烈光效，硬边漫画分格，整齐卡片网格，过多贴纸装饰，文字遮挡主体，箭头交叉，乱码，水印，品牌标志，社交平台界面。\n\n【生成要求】\n12个词的拼写、音标、词性与释义逐项对照；原表音标不自行改写。\n三个场景中的人物、发型和服装一致；手部和餐具形态自然。\n每个标签的指向准确；桌子与椅子、汤与咖啡可明确区分。\nbill指账单夹里的宽账单纸，receipt指服务员手中的狭长收据。\ndelicious通过食物和神情表达，不用箭头给人物命名。\n词条各一次，画面无漏字、重叠、裁切、额外教学文字或水印。",
+        "negative_prompt": "Q版人物，儿童简笔画，夸张大头大眼，扁平矢量插画，3D渲染，摄影写实，塑料质感，光滑数码厚涂，粗黑描边，高饱和荧光色，强烈光效，硬边漫画分格，整齐卡片网格，过多贴纸装饰，文字遮挡主体，箭头交叉，乱码，水印，品牌标志，社交平台界面。"
+      },
+      "qa_checks": [
+        "12个词的拼写、音标、词性与释义逐项对照；原表音标不自行改写。",
+        "三个场景中的人物、发型和服装一致；手部和餐具形态自然。",
+        "每个标签的指向准确；桌子与椅子、汤与咖啡可明确区分。",
+        "bill指账单夹里的宽账单纸，receipt指服务员手中的狭长收据。",
+        "delicious通过食物和神情表达，不用箭头给人物命名。",
+        "词条各一次，画面无漏字、重叠、裁切、额外教学文字或水印。"
+      ],
+      "status": "prompt_ready"
+    }
+  ],
+  "coverage": {
+    "scope_entry_count": 12,
+    "classified_count": 12,
+    "first_teaching_count": 12,
+    "pending_entry_ids": [],
+    "unplaced_entry_ids": [],
+    "review_occurrence_count": 0
+  },
+  "supplements": []
+}

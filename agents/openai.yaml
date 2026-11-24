@@ -1,0 +1,4 @@
+interface:
+  display_name: "词汇场景漫画提示词"
+  short_description: "将词表按主题分类并规划漫画页面，导出可复制的逐页生图提示词文稿"
+  default_prompt: "使用 $vocab-scene-prompts 将我提供的词表按主题分类、规划场景分页，并导出完整生图提示词的 Word 和 Markdown。"
